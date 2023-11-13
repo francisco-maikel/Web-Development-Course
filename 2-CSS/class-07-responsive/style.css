@@ -1,0 +1,32 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    text-align: center;
+    padding: 2.4rem;
+}
+
+h1 {
+    /*font-size: 32px;*/
+    /*font-size: 2rem;*/
+    font-size: 5.6rem;
+}
+
+.boxImage {
+  max-width: 32rem;
+  height: 12rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+p {
+    font-size: 1.6rem;
+}

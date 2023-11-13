@@ -1,0 +1,53 @@
+body{
+    /*background:*/ lightgray;
+   background-image: url(../../../1-HTML/class-03-medias/challenges/images/background-img1.jpg);
+    /*background-repeat: no-repeat;
+   background-size: 240px;
+   background-position: center;
+   background-attachment: fixed;*/
+}
+
+h1 {
+    color: #686d1d;
+    background: purple;
+    border: 2px solid rgb(77, 175, 31);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+h1 {
+    color: peru;
+}
+
+#subTitle{
+    color:  red;
+}
+
+
+#subTitle2 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+p.paragraph{
+    color:rgb(231, 40, 40);
+}
+
+.paragraph {
+    color: rgb(240, 21, 21);
+    font-weight: 700;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+ section h2 {
+    font-size: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.582)
+ }
+
+ h2 {
+    font-size: 50px;
+ }
