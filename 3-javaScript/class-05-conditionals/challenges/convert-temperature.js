@@ -6,11 +6,11 @@ const newDegree = Number (auxDegree.join(""))
 if (isNaN(newDegree)) throw Error ("Valor inválido!")
 
   if (scaleDegree == "C") {
-    return ((newDegree * 9) / 5 + 32 + "F")
+    return ((newDegree * 9) / 5 + 32+ "F")
   } else if (scaleDegree == "F") {
     return ((newDegree - 32) * 5) / 9 + "C";
   } else {
-    throw new Error ("Escala inválida!");
+    throw new Error ("Escala iválida!");
   }
 }
 
