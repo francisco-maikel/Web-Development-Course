@@ -52,7 +52,6 @@ const buttonUpper =document.querySelector(".buttonUpper")
 const buttonLower = document.querySelector(".buttonLower")
 const buttonOnOff = document.querySelector(".buttonOnOff")
 
-
  buttonUpper.addEventListener("click", () => {
     airControl.tempUpper();
     console.log(airControl.temperature);
